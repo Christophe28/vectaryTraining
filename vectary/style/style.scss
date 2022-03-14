@@ -1,0 +1,42 @@
+header {
+
+    h1 {
+        text-align: center;
+    }
+}
+main {
+
+    .containerItemsName {
+        text-align: center;
+
+        select {
+
+            option {
+                text-align: center;
+            }
+        }
+    }
+    .containerColors {
+        height: 4em;
+        display: flex;
+        justify-content: center;
+
+        button {
+            border-radius: 50%;
+            width: 4.5em;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .colorBlue {
+            background-color: blue;
+        }
+        .colorGreen {
+            background-color: green;
+        }
+        .colorRed {
+            background-color: red;
+        }
+    }
+}
